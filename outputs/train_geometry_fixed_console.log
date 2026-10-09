@@ -1,0 +1,391 @@
+/home/wy666/miniconda3/envs/crn_s3_test/lib/python3.10/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+设备: cuda
+输出目录: outputs/train_geometry_fixed
+[S3M] Matched samples: 212
+[S3S] Matched samples: 347
+[train] Loaded samples: 395
+[S3M] Matched samples: 212
+[S3S] Matched samples: 347
+[val] Loaded samples: 114
+训练帧数: 395
+验证帧数: 114
+训练Batch: 198
+验证Batch: 57
+
+========== Epoch 1/20 ==========
+Train [1/198] Loss=15.7735
+Train [20/198] Loss=3.0052
+Train [40/198] Loss=2.2370
+Train [60/198] Loss=1.8959
+Train [80/198] Loss=1.2620
+Train [100/198] Loss=1.0646
+Train [120/198] Loss=0.7337
+Train [140/198] Loss=1.4217
+Train [160/198] Loss=0.8316
+Train [180/198] Loss=0.7053
+Train [198/198] Loss=0.6774
+Val [1/57] Loss=0.9768
+Val [20/57] Loss=0.6386
+Val [40/57] Loss=1.2939
+Val [57/57] Loss=0.7162
+Epoch 1 | Train=1.560317 | Val=0.804268
+更新最优模型: Val=0.804268
+
+========== Epoch 2/20 ==========
+Train [1/198] Loss=0.4937
+Train [20/198] Loss=0.5090
+Train [40/198] Loss=0.4400
+Train [60/198] Loss=0.3058
+Train [80/198] Loss=0.3406
+Train [100/198] Loss=0.4457
+Train [120/198] Loss=0.2605
+Train [140/198] Loss=0.5374
+Train [160/198] Loss=0.4684
+Train [180/198] Loss=0.2417
+Train [198/198] Loss=0.1852
+Val [1/57] Loss=0.7288
+Val [20/57] Loss=0.2525
+Val [40/57] Loss=0.9912
+Val [57/57] Loss=0.4643
+Epoch 2 | Train=0.389180 | Val=0.545662
+更新最优模型: Val=0.545662
+
+========== Epoch 3/20 ==========
+Train [1/198] Loss=0.1604
+Train [20/198] Loss=0.2580
+Train [40/198] Loss=0.1913
+Train [60/198] Loss=0.3893
+Train [80/198] Loss=0.1599
+Train [100/198] Loss=0.1686
+Train [120/198] Loss=0.2122
+Train [140/198] Loss=0.3163
+Train [160/198] Loss=0.2027
+Train [180/198] Loss=0.2330
+Train [198/198] Loss=0.1666
+Val [1/57] Loss=0.7695
+Val [20/57] Loss=0.1319
+Val [40/57] Loss=0.7635
+Val [57/57] Loss=0.2522
+Epoch 3 | Train=0.221866 | Val=0.454736
+更新最优模型: Val=0.454736
+
+========== Epoch 4/20 ==========
+Train [1/198] Loss=0.1692
+Train [20/198] Loss=0.1165
+Train [40/198] Loss=0.1598
+Train [60/198] Loss=0.1278
+Train [80/198] Loss=0.1244
+Train [100/198] Loss=0.1403
+Train [120/198] Loss=0.0765
+Train [140/198] Loss=0.1359
+Train [160/198] Loss=0.0778
+Train [180/198] Loss=0.1008
+Train [198/198] Loss=0.0894
+Val [1/57] Loss=0.7347
+Val [20/57] Loss=0.1930
+Val [40/57] Loss=0.8137
+Val [57/57] Loss=0.1603
+Epoch 4 | Train=0.156730 | Val=0.451580
+更新最优模型: Val=0.451580
+
+========== Epoch 5/20 ==========
+Train [1/198] Loss=0.1440
+Train [20/198] Loss=0.0664
+Train [40/198] Loss=0.0985
+Train [60/198] Loss=0.1778
+Train [80/198] Loss=0.0638
+Train [100/198] Loss=0.3034
+Train [120/198] Loss=0.1077
+Train [140/198] Loss=0.0902
+Train [160/198] Loss=0.1023
+Train [180/198] Loss=0.0691
+Train [198/198] Loss=0.0769
+Val [1/57] Loss=0.5532
+Val [20/57] Loss=0.2322
+Val [40/57] Loss=0.8272
+Val [57/57] Loss=0.0749
+Epoch 5 | Train=0.130533 | Val=0.356422
+更新最优模型: Val=0.356422
+
+========== Epoch 6/20 ==========
+Train [1/198] Loss=0.0916
+Train [20/198] Loss=0.0713
+Train [40/198] Loss=0.1054
+Train [60/198] Loss=0.0798
+Train [80/198] Loss=0.0912
+Train [100/198] Loss=0.0747
+Train [120/198] Loss=0.0577
+Train [140/198] Loss=0.0689
+Train [160/198] Loss=0.0589
+Train [180/198] Loss=0.0985
+Train [198/198] Loss=0.1846
+Val [1/57] Loss=0.6969
+Val [20/57] Loss=0.1487
+Val [40/57] Loss=0.6196
+Val [57/57] Loss=0.0991
+Epoch 6 | Train=0.108605 | Val=0.363540
+
+========== Epoch 7/20 ==========
+Train [1/198] Loss=0.0678
+Train [20/198] Loss=0.0771
+Train [40/198] Loss=0.0848
+Train [60/198] Loss=0.1786
+Train [80/198] Loss=0.0882
+Train [100/198] Loss=0.0488
+Train [120/198] Loss=0.0906
+Train [140/198] Loss=0.2272
+Train [160/198] Loss=0.0767
+Train [180/198] Loss=0.1076
+Train [198/198] Loss=0.0823
+Val [1/57] Loss=0.7683
+Val [20/57] Loss=0.1955
+Val [40/57] Loss=0.6898
+Val [57/57] Loss=0.4002
+Epoch 7 | Train=0.088898 | Val=0.402648
+
+========== Epoch 8/20 ==========
+Train [1/198] Loss=0.0343
+Train [20/198] Loss=0.0868
+Train [40/198] Loss=0.0332
+Train [60/198] Loss=0.0319
+Train [80/198] Loss=0.0494
+Train [100/198] Loss=0.0480
+Train [120/198] Loss=0.0665
+Train [140/198] Loss=0.0407
+Train [160/198] Loss=0.0506
+Train [180/198] Loss=0.0254
+Train [198/198] Loss=0.0445
+Val [1/57] Loss=0.5065
+Val [20/57] Loss=0.0626
+Val [40/57] Loss=0.7218
+Val [57/57] Loss=0.1947
+Epoch 8 | Train=0.073787 | Val=0.332605
+更新最优模型: Val=0.332605
+
+========== Epoch 9/20 ==========
+Train [1/198] Loss=0.0146
+Train [20/198] Loss=0.0491
+Train [40/198] Loss=0.0319
+Train [60/198] Loss=0.0375
+Train [80/198] Loss=0.0420
+Train [100/198] Loss=0.0251
+Train [120/198] Loss=0.0692
+Train [140/198] Loss=0.0575
+Train [160/198] Loss=0.0685
+Train [180/198] Loss=0.0722
+Train [198/198] Loss=0.1207
+Val [1/57] Loss=0.7348
+Val [20/57] Loss=0.1049
+Val [40/57] Loss=0.9070
+Val [57/57] Loss=0.0853
+Epoch 9 | Train=0.054807 | Val=0.331081
+更新最优模型: Val=0.331081
+
+========== Epoch 10/20 ==========
+Train [1/198] Loss=0.0522
+Train [20/198] Loss=0.5164
+Train [40/198] Loss=0.0528
+Train [60/198] Loss=0.0952
+Train [80/198] Loss=0.0596
+Train [100/198] Loss=0.0513
+Train [120/198] Loss=0.0869
+Train [140/198] Loss=0.0412
+Train [160/198] Loss=0.1478
+Train [180/198] Loss=0.0850
+Train [198/198] Loss=0.0389
+Val [1/57] Loss=0.7601
+Val [20/57] Loss=0.0988
+Val [40/57] Loss=1.1509
+Val [57/57] Loss=0.1553
+Epoch 10 | Train=0.074796 | Val=0.408158
+
+========== Epoch 11/20 ==========
+Train [1/198] Loss=0.0351
+Train [20/198] Loss=0.0451
+Train [40/198] Loss=0.0141
+Train [60/198] Loss=0.0369
+Train [80/198] Loss=0.0332
+Train [100/198] Loss=0.0259
+Train [120/198] Loss=0.0480
+Train [140/198] Loss=0.0266
+Train [160/198] Loss=0.0358
+Train [180/198] Loss=0.0154
+Train [198/198] Loss=0.0300
+Val [1/57] Loss=0.8626
+Val [20/57] Loss=0.0643
+Val [40/57] Loss=0.8657
+Val [57/57] Loss=0.0493
+Epoch 11 | Train=0.040455 | Val=0.380648
+
+========== Epoch 12/20 ==========
+Train [1/198] Loss=0.0430
+Train [20/198] Loss=0.0307
+Train [40/198] Loss=0.5621
+Train [60/198] Loss=0.0648
+Train [80/198] Loss=0.0340
+Train [100/198] Loss=0.0333
+Train [120/198] Loss=0.0518
+Train [140/198] Loss=0.0982
+Train [160/198] Loss=0.0398
+Train [180/198] Loss=0.0574
+Train [198/198] Loss=0.0436
+Val [1/57] Loss=0.9807
+Val [20/57] Loss=0.1101
+Val [40/57] Loss=0.9916
+Val [57/57] Loss=0.0348
+Epoch 12 | Train=0.062682 | Val=0.412883
+
+========== Epoch 13/20 ==========
+Train [1/198] Loss=0.1382
+Train [20/198] Loss=0.0712
+Train [40/198] Loss=0.0083
+Train [60/198] Loss=0.1085
+Train [80/198] Loss=0.0812
+Train [100/198] Loss=0.0264
+Train [120/198] Loss=0.0344
+Train [140/198] Loss=0.0430
+Train [160/198] Loss=0.0505
+Train [180/198] Loss=0.0533
+Train [198/198] Loss=0.0947
+Val [1/57] Loss=0.6917
+Val [20/57] Loss=0.0919
+Val [40/57] Loss=1.0813
+Val [57/57] Loss=0.0458
+Epoch 13 | Train=0.056989 | Val=0.347536
+
+========== Epoch 14/20 ==========
+Train [1/198] Loss=0.0468
+Train [20/198] Loss=0.0401
+Train [40/198] Loss=0.0510
+Train [60/198] Loss=0.0387
+Train [80/198] Loss=0.0443
+Train [100/198] Loss=0.0194
+Train [120/198] Loss=0.0179
+Train [140/198] Loss=0.0308
+Train [160/198] Loss=0.0361
+Train [180/198] Loss=0.0323
+Train [198/198] Loss=0.0386
+Val [1/57] Loss=0.5981
+Val [20/57] Loss=0.0552
+Val [40/57] Loss=0.7747
+Val [57/57] Loss=0.0188
+Epoch 14 | Train=0.044565 | Val=0.307842
+更新最优模型: Val=0.307842
+
+========== Epoch 15/20 ==========
+Train [1/198] Loss=0.0385
+Train [20/198] Loss=0.0306
+Train [40/198] Loss=0.0538
+Train [60/198] Loss=0.0385
+Train [80/198] Loss=0.0657
+Train [100/198] Loss=0.0361
+Train [120/198] Loss=0.0331
+Train [140/198] Loss=0.0349
+Train [160/198] Loss=0.0340
+Train [180/198] Loss=0.0254
+Train [198/198] Loss=0.0155
+Val [1/57] Loss=0.6243
+Val [20/57] Loss=0.0620
+Val [40/57] Loss=1.0591
+Val [57/57] Loss=0.0347
+Epoch 15 | Train=0.037671 | Val=0.304325
+更新最优模型: Val=0.304325
+
+========== Epoch 16/20 ==========
+Train [1/198] Loss=0.0402
+Train [20/198] Loss=0.0200
+Train [40/198] Loss=0.0513
+Train [60/198] Loss=0.0495
+Train [80/198] Loss=0.0415
+Train [100/198] Loss=0.0362
+Train [120/198] Loss=0.1295
+Train [140/198] Loss=0.0243
+Train [160/198] Loss=0.0402
+Train [180/198] Loss=0.0286
+Train [198/198] Loss=0.0309
+Val [1/57] Loss=0.5495
+Val [20/57] Loss=0.0440
+Val [40/57] Loss=1.0200
+Val [57/57] Loss=0.0240
+Epoch 16 | Train=0.038770 | Val=0.312478
+
+========== Epoch 17/20 ==========
+Train [1/198] Loss=0.0416
+Train [20/198] Loss=0.0822
+Train [40/198] Loss=0.0230
+Train [60/198] Loss=0.0502
+Train [80/198] Loss=0.0324
+Train [100/198] Loss=0.0863
+Train [120/198] Loss=0.0186
+Train [140/198] Loss=0.0405
+Train [160/198] Loss=0.0317
+Train [180/198] Loss=0.0506
+Train [198/198] Loss=0.0111
+Val [1/57] Loss=0.4239
+Val [20/57] Loss=0.1176
+Val [40/57] Loss=1.0121
+Val [57/57] Loss=0.0371
+Epoch 17 | Train=0.048338 | Val=0.367804
+
+========== Epoch 18/20 ==========
+Train [1/198] Loss=0.0257
+Train [20/198] Loss=0.0477
+Train [40/198] Loss=0.0536
+Train [60/198] Loss=0.0348
+Train [80/198] Loss=0.0301
+Train [100/198] Loss=0.0208
+Train [120/198] Loss=0.0309
+Train [140/198] Loss=0.0381
+Train [160/198] Loss=0.0380
+Train [180/198] Loss=0.0332
+Train [198/198] Loss=0.0826
+Val [1/57] Loss=0.4506
+Val [20/57] Loss=0.0932
+Val [40/57] Loss=0.7594
+Val [57/57] Loss=0.2010
+Epoch 18 | Train=0.046155 | Val=0.260595
+更新最优模型: Val=0.260595
+
+========== Epoch 19/20 ==========
+Train [1/198] Loss=0.0394
+Train [20/198] Loss=0.0732
+Train [40/198] Loss=0.0520
+Train [60/198] Loss=0.0859
+Train [80/198] Loss=0.0804
+Train [100/198] Loss=0.0536
+Train [120/198] Loss=0.0717
+Train [140/198] Loss=0.0423
+Train [160/198] Loss=0.0936
+Train [180/198] Loss=0.0284
+Train [198/198] Loss=0.0907
+Val [1/57] Loss=0.5913
+Val [20/57] Loss=0.0713
+Val [40/57] Loss=0.9028
+Val [57/57] Loss=0.0305
+Epoch 19 | Train=0.067704 | Val=0.279276
+
+========== Epoch 20/20 ==========
+Train [1/198] Loss=0.0522
+Train [20/198] Loss=0.0378
+Train [40/198] Loss=0.0339
+Train [60/198] Loss=0.0444
+Train [80/198] Loss=0.0433
+Train [100/198] Loss=0.0212
+Train [120/198] Loss=0.0135
+Train [140/198] Loss=0.0310
+Train [160/198] Loss=0.0256
+Train [180/198] Loss=0.0267
+Train [198/198] Loss=0.0976
+Val [1/57] Loss=0.7063
+Val [20/57] Loss=0.0712
+Val [40/57] Loss=0.8922
+Val [57/57] Loss=0.0496
+Epoch 20 | Train=0.038193 | Val=0.354351
+
+训练结束
+最优验证损失: 0.2605946916318907
+训练日志: outputs/train_geometry_fixed/training_log.csv
+最新权重: outputs/train_geometry_fixed/last.pth
+最优权重: outputs/train_geometry_fixed/best.pth
+GPU峰值分配显存: 1225.72 MB

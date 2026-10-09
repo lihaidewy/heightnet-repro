@@ -1,0 +1,2 @@
+epoch,train_loss,train_heatmap,train_bbox,val_loss,val_heatmap,val_bbox,train_samples,val_samples,train_objects,val_objects,lr,seconds,peak_memory_mb
+1,10.254785537719727,8.727385520935059,1.5274001359939575,4.982275485992432,3.6933906078338623,1.2888847589492798,2,2,7,12,0.0001,5.194212332999996,2894.787109375

@@ -1,0 +1,29 @@
+{
+  "args": {
+    "train_split": "data/splits/train.json",
+    "val_split": "data/splits/val.json",
+    "output_dir": "outputs/train_heightnet_resolution_probe",
+    "image_height": 576,
+    "image_width": 1024,
+    "batch_size": 2,
+    "num_workers": 2,
+    "epochs": 1,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "warmup_steps": 100,
+    "min_lr_ratio": 0.01,
+    "grad_clip": 5.0,
+    "amp": "fp32",
+    "seed": 42,
+    "max_train_batches": 1,
+    "max_val_batches": 1,
+    "log_interval": 20,
+    "resume": ""
+  },
+  "split_hashes": {
+    "train": "8246382d0abd5527a4ba3a1a7f2912ed9c4087ab36dfc27508891fd4253822e3",
+    "val": "3391820fc35dabbfbdffe9a81c7973d5252dc739d6637ff2ccd05918a2a2e31e"
+  },
+  "warmup_steps_effective": 1,
+  "model_parameters": 74559035
+}
