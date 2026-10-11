@@ -7,6 +7,6 @@ PyTorch implementation adapted to the S3S and S3M roadside datasets.
 - `docs/`: geometry conventions and recorded results.
 - `outputs/`: experiment configurations, logs and visualizations.
 
-Raw datasets and model checkpoints are excluded. To train, restore S3S/S3M images, labels and radar files under `data/`, and provide dataset split JSON files.
+Raw datasets and model checkpoints are excluded. To train, restore S3S/S3M images, labels and radar files under `data/`, Dataset split JSON files are included in `data/splits/`.
 
 Training entry point: `python -m scripts.train_heightnet_full`. Dependencies include PyTorch, torchvision, NumPy, Pillow, pandas and SciPy; versions are not pinned.

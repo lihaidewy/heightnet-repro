@@ -1,9 +1,28 @@
+# Local Python caches and environments
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+# Model weights and raw datasets
 *.pth
 *.pt
 *.ckpt
 /data/*
 !/data/splits/
+# Local repository copies and preserved Git history
+/github-upload/
+/.git-history-backup-*/
+/.git-clean-prepared/
+# Local settings and credentials
+/.agents/
+/.aws/
+/.codex/
+/.vscode/
 .env
 .env.*
+/wy031008
+/wy031008.pub
+id_rsa*
+id_ed25519*
+*.pem
+*.key
